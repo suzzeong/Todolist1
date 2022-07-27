@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #eee;
+}
+
+.form p {
+  display: inline;
+  margin-right: 7px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form input {
+  margin-right: 30px;
+  border: 3px solid #b0e0e6;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+button {
+  color: #000;
+  font-size: 18px;
+  border-radius:10px; 
+  border: none;
+  cursor: pointer;
+  background-color: #b0e0e6;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #ff6b6b;
+}

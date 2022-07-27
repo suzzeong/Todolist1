@@ -1,0 +1,21 @@
+.working,
+.done {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 10px;
+  background-color: #eee;
+}
+
+.working {
+  margin-bottom: 100px;
+}
+
+.list_title {
+  margin-top: 50px;
+}
+
+.done {
+  margin-bottom: 100px;
+}

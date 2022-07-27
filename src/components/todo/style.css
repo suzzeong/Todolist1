@@ -1,0 +1,47 @@
+.todos_container {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+
+.todo {
+  width: 300px;
+  padding : 30px;
+  border: 3px solid #b0e0e6;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.todo_title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.todo_content {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button{
+  color: #000;
+  font-size: 18px;
+  border:none; 
+  border-radius:10px; 
+  min-height:30px; 
+  min-width: 140px;
+  background-color: #b0e0e6;
+}
+
+.buttons button:hover {
+  transition: 0.5s;
+  background-color: #ff6b6b;
+}
